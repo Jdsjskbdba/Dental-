@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>عيادات أهل البيت - طب الأسنان</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="dentistry.png" alt="عيادات أهل البيت" width="200">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">الخدمات</a></li>
+                <li><a href="#about">عن العيادة</a></li>
+                <li><a href="#contact">اتصل بنا</a></li>
+                <li><a href="#appointments">حجز موعد</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="services" class="section">
+        <h2>خدماتنا</h2>
+        <div class="service">
+            <img src="clean.png" alt="جلسات تنظيف الاسنان" class="service-img">
+            <h3>جلسات تنظيف الاسنان وإزالة التكلسات</h3>
+            <p>نقدم جلسات تنظيف الأسنان الاحترافية لإزالة التكلسات وتنظيف الأسنان بشكل دقيق وآمن.</p>
+        </div>
+        <div class="service">
+            <img src="Yaser.png" alt="جلسات قلع الاسنان والجذور المتبقية" class="service-img">
+            <h3>جلسات قلع الاسنان والجذور المتبقية</h3>
+            <p>نوفر خدمات قلع الأسنان والجذور المتبقية تحت إشراف مختصين مع استخدام أحدث التقنيات الطبية.</p>
+        </div>
+        <div class="service">
+            <img src="tooth (2).png" alt="الحشوات الضوئية والمعدنية" class="service-img">
+            <h3>الحشوات الضوئية والمعدنية</h3>
+            <p>نقدم حشوات ضوئية أو معدنية عالية الجودة، تضمن لك ابتسامة طبيعية وقوية.</p>
+        </div>
+        <div class="service">
+            <img src="tooth-health.png" alt="طقم متحرك" class="service-img">
+            <h3>طقم متحرك</h3>
+            <p>نقدم أطقم أسنان متحركة مريحة وآمنة لتحسين وظيفة الفم والمظهر العام.</p>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>عن العيادة</h2>
+        <p>عيادات أهل البيت هي عيادة متخصصة في تقديم خدمات طب الأسنان بأعلى مستوى من الاحترافية. نحن ملتزمون بتوفير رعاية طبية شاملة وآمنة لمرضانا في جو من الراحة والطمأنينة.</p>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>اتصل بنا</h2>
+        <p>للحجز أو الاستفسار، يمكنك التواصل معنا عبر:</p>
+        <ul>
+            <li>الهاتف: 123-456-789</li>
+            <li>البريد الإلكتروني: contact@ahlalbayt.com</li>
+            <li>العنوان: كربلاء المقدسة، حي النقيب، شارع النهر</li>
+        </ul>
+    </section>
+
+    <section id="appointments" class="section">
+        <h2>حجز موعد</h2>
+        <form id="appointment-form">
+            <label for="name">الاسم:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">البريد الإلكتروني:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="service">الخدمة المطلوبة:</label>
+            <select id="service" name="service" required>
+                <option value="تنظيف">تنظيف الأسنان</option>
+                <option value="قلع">قلع الأسنان</option>
+                <option value="حشوات">حشوات ضوئية/معدنية</option>
+                <option value="طقم">طقم أسنان متحرك</option>
+            </select>
+
+            <label for="date">تاريخ الموعد:</label>
+            <input type="date" id="date" name="date" required>
+
+            <button type="submit">حجز الموعد</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 عيادات أهل البيت - جميع الحقوق محفوظة</p>
+    </footer>
+</body>
+</html>
